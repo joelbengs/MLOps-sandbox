@@ -3,3 +3,4 @@ datasets/*
 predictions/*
 __pycache__/*
 sandboxvenv/
+models/*
