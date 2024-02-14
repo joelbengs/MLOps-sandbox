@@ -6,6 +6,8 @@ from transformers import AutoImageProcessor
 import torch
 import albumentations
 
+# Adopted from https://huggingface.co/docs/transformers/tasks/object_detection
+
 # Load the cppe5 dataset, and inspect it
 cppe5 = load_dataset("cppe-5", cache_dir='./datasets')
 print("cppe5: ")

@@ -7,5 +7,13 @@ accelerate == 0.26.1
 pillow
 datasets == 2.16.1
 evaluate == 0.4.1
+evaluate[evaluator]
 albumentations  == 1.3.1
 tensorflow
+optimum[onnxruntime]
+scikit-learn
+onnx
+
+# SYNTAX: optimum[onnxruntime]==1.5.0 means you want to install the optimum package version 1.5.0, along with the extras that are defined under the onnxruntime group by the optimum package. These extras could include additional dependencies that are required to use optimum with onnxruntime specifically.
+
+
